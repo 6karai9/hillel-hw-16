@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2;
+    font-size: 18px;
+    background-color: #66deb2;
+}
+
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.slider {
+    position: relative;
+}
+
+.slides {
+    margin-top: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    width: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 500px;
+}
+
+.next {
+    right: 500px;
+}
+
